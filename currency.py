@@ -6,4 +6,4 @@ JPY = 4
 
 Number = Raw_input("What currency do you wish to change?")
 
-print number
+print Number
