@@ -10,33 +10,33 @@ if Currency.isalpha:
 Ammount =  raw_input("Ammount of currency you wish to convert e.g 2.55")
 to = raw_input("Currency converting to?")
 if Currency = GBP and to = EUR:
-    print
+    print ammount*2
 if Currency = GBP and to = USD:
-    print
+    print ammount*5
 if Currency = GBP and to = JPY:
-    print
+    print ammount*4
 if Currency = GBP and to = GBP:
-    print 
+    print ammount*1
 if Currency = USD and to = USD:
-    print 
+    print ammount*1
 if Currency = USD and to = EUR:
-    print 
+    print ammount*0.40
 if Currency = USD and to = JPY:
-    print 
+    print ammount*0.80
 if Currency = EUR and to = EUR:
-    print 
+    print ammount*1
 if Currency = EUR and to = GBP:
-    print 
+    print ammount*0.50
 if Currency = EUR and to = JPY:
-    print 
+    print ammount*2
 if Currency = EUR and to = USD:
-    print 
+    print ammount*2.50
 if Currency = JPY and to = EUR:
-    print 
+    print ammount*0.50
 if Currency = JPY and to = USD:
-    print 
+    print ammount*1.20
 if Currency = JPY and to = GBP:
-    print 
+    print ammount*0.20
 if Currency = JPY and to = JPY:
-    print 
+    print ammount*1
 
